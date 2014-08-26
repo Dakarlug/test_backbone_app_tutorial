@@ -117,6 +117,12 @@ Work fine.
 
 
 
+
+![Alt text](https://github.com/Dakarlug/test_backbone_app_tutorial/blob/master/test..PNG "screen_shot")
+
+
+
+
 Thank you very Much , Now We are going The Write some more 
 code soon with all guys which love JavaScript very well 
 On The SFD 2014  .http://blog.dakarlug.org/
