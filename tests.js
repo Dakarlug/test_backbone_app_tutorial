@@ -1,7 +1,7 @@
 test( "testing  our application - specifically our backbone view ", 
 function(){
 //Define a backBone Model object
-Speatch  =  Backbone.Model.extend({
+Speech=  Backbone.Model.extend({
   str: function(){
     return  this.attributes.speaker_name +  " : " 
 	     + this.attributes.title
@@ -9,13 +9,13 @@ Speatch  =  Backbone.Model.extend({
 })
 
 // instanciate Model with given attributes
-model = new  Speatch({
+model = new  Speech({
   speaker_name : 'Alioune Dia',
   title  : 'BackBone Demo FrameWork' 
 })
       
 // difine a basic view
-SpeatchView  = Backbone.View.extend({
+SpeechView  = Backbone.View.extend({
   model_has_changed:0,
   initialize: function(){
    this.listenTo(this.model, "change", this.model_change);
@@ -27,7 +27,7 @@ SpeatchView  = Backbone.View.extend({
   }
  });
  
- view = new SpeatchView({model:model , el :$('body')})
+ view = new SpeechView({model:model , el :$('body')})
  //$('body').append(view.el);
  view.render()
  // change speaker name to Genova , currently the speaker name 
